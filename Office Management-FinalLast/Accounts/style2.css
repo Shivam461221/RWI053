@@ -1,0 +1,566 @@
+.sidebar {
+    background: linear-gradient(129.89deg, #84a9d6, #04567b);
+    border-radius: 12px;
+    padding: 12px;
+    height: 100vh;
+  }
+  .search-container {
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  .railworld-india-private-container3 {
+    margin-left: 10px;
+  }
+  .railworld-india3 {
+    font-size: 20px;
+  }
+  .rail-div p {
+    background: var(--color-steelblue-200);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin: 14px 10px 0px 10px;
+  }
+  .search-div {
+    background-color: var(--color-steelblue-200);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 25px;
+    margin: 12px 0 0 0;
+  }
+  .search-div input {
+    background: #7a9ac2;
+    border: none;
+    box-shadow: none;
+    width: auto;
+    color: #000;
+    font-size: 16px;
+  }
+  .search-div input:focus,
+  .search-div input:hover {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+ .name{
+    margin: 13px 0px 0 64px;
+    color: var(--color-steelblue-200);
+  }
+  .search-3{
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    border: 1px solid black;
+    overflow: hidden;
+    padding-left: 3px;
+}
+  .desktop-9-inner {
+    background-color: var(--color-white);
+    border-radius: 9.63px;
+    margin: 20px 0 20px 0;
+    padding: 1px 0px 1px 25px;
+    min-height: 110px;
+    color: var(--color-steelblue-200);
+  }
+  .active-employees-400-container4 {
+    margin: 15px 15px 15px 15px;
+  }
+  .nav-list {
+    position: relative;
+    color: #fff;
+  }
+  .nav-list ul {
+    padding-left: 10px;
+  }
+  .nav-list li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #fff;
+  }
+  .active {
+    background-color: #0f1112;
+  }
+  .nav-list li {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 12px;
+  }
+  .nav-list li:hover {
+    background-color: #111;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 12px;
+  }
+  .nav-list li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .tab {
+    width:95%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 4px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .icon {
+    border-radius: var(--br-22xl);
+    background: linear-gradient(129.89deg, #84a9d6, #04567b);
+    width: 36.5px;
+    height: 29.9px;
+    padding-top: 4px;
+    margin-right: 5px;
+  }
+  .position {
+    margin-left: 45px;
+  }
+  
+  body {
+    margin: 0;
+    line-height: normal;
+    background-image: url(./public/WhatsApp\ Image\ 2024-03-22\ at\ 06.36.14_2017b7cf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tab{
+    width:100%;
+  }
+  /*.maintable1{
+    height:420px;
+    width:800px;
+    margin-top: 1%;
+    border-radius: 20px;
+    background-color:#ffffff;
+    color: #ffffff;
+    overflow:visible;
+    border-radius: 22px;
+    justify-content: center;
+    }*/
+
+.table-1{
+    height: 408px;
+    width: 100%;
+    margin-top: 0%;
+    overflow: hidden;
+    border-radius: 15px;
+    gap:10px;
+}
+.col{
+  width:50px;
+}
+.sr-no-column{
+    height: 95%;
+    width: 40%;
+    text-align: center;
+    background-color: steelblue;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    margin:10px 10px 10px 10px;
+    justify-content: center;
+  }
+.textbox1{
+    text-align: center;
+    width: 46px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-inline: -15%;
+    border-radius: 22px;
+    padding: 15px;
+    border: 10px;
+    overflow: visible;
+}
+.sr-no{
+    font-size: 15px;
+    margin-top: -66%;
+    margin-left: -51%;
+    width: 16px;
+    background-color: #ffffff;
+    color: black;
+    overflow: visible;
+}
+.textbox1 ul{
+    margin-left: -287%;
+    width:80px;
+    /*margin-top: 2%;*/
+    /*padding: 20px;*/
+}
+.textbox1 ul li{
+    list-style: none;
+    height:26px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: -5%;
+}
+.client-name-column{
+    height: 95%;
+    width: 99%;
+    text-align: center;
+    background-color: steelblue;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 10px 10px -50px;
+    justify-content: center;
+  }
+.client-name-box{
+    text-align: center;
+    width: 119px;
+    height: 0.5px;
+    background-color: rgb(255, 255, 255);
+    border: 0.5em solid black;
+    border-radius: 22px;
+    padding: 15px;
+    border: 10px;
+    overflow: visible;
+}
+.client-name{
+    font-size: 13px;
+    margin-top: -11%;
+    margin-left: 3%;
+    width: 80%;
+    color: black;
+    overflow: visible;
+}
+.client-name-box ul{
+    margin-left: -53%;
+    background-color: transparent;
+}
+.client-name-box ul li{
+    list-style: none;
+    height: 25px;
+    width: 112px;
+    margin-left: 4%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color:black;
+}
+.project-column{
+    height: 95%;
+    width: 100%;
+    text-align: center;
+    background-color: steelblue;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 10px 10px -35px;
+    justify-content: center;
+  }
+.project-box{
+    text-align: center;
+    width: 119px;
+    height: 0.5px;
+    background-color: rgb(255, 255, 255);
+    border: 0.5em solid black;
+    border-radius: 22px;
+    padding: 15px;
+    border: 10px;
+    overflow: visible;
+}
+.project-name{
+    font-size: 15px;
+    margin-top: -15%;
+    margin-left: 1%;
+    width: 91px;
+    color: black;
+    overflow: visible;
+}
+.project-box ul{
+    background-color: transparent;
+}
+.project-box ul li{
+    list-style: none;
+    background-color: #ffffff;
+    height: 25px;
+    width: 112px;
+    margin-left: -79%;
+    border-radius: 15px;
+    margin-top: 31.5px;
+    margin-bottom: 7px;
+    color:black;
+}
+.tech-column{
+    height: 95%;
+    width: 100%;
+    text-align: center;
+    background-color: steelblue;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 10px 10px -2px;
+    justify-content: center;
+  }
+.tech-box{
+    text-align: center;
+    width: 119px;
+    height: 0.5px;
+    background-color: rgb(255, 255, 255);
+    border: 0.5em solid black;
+    border-radius: 22px;
+    padding: 15px;
+    border: 10px;
+    overflow: visible;
+}
+.tech-name{
+    font-size: 15px;
+    margin-top: -15%;
+    margin-left: -1%;
+    width: 91px;
+    color: black;
+    overflow: visible;
+}
+
+.tech-box ul{
+    background-color: transparent;
+}
+.tech-box ul li{
+    list-style: none;
+    background-color: #ffffff;
+    height: 26px;
+    width: 112px;
+    margin-left: -80%;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color:black;
+}
+.teamno-name-column{
+    height: 95%;
+    width: 100%;
+    text-align: center;
+    background-color: steelblue;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 50px 10px 35px;
+    justify-content: center;
+  }
+
+.teamno-name-box{
+    text-align: center;
+    width: 119px;
+    height: 0.5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 22px;
+    padding: 15px;
+    border: 10px;
+    overflow: visible;
+}
+.teamno-name{
+    font-size: 15px;
+    margin-top: -14%;
+    margin-left: -1%;
+    width: 91px;
+    color: black;
+    overflow: visible;
+}
+.teamno-name-box ul{
+    background-color: transparent;
+}
+.teamno-name-box ul li{
+    list-style: none;
+    background-color: #ffffff;
+    height: 26px;
+    width: 112px;
+    margin-left: -78%;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color:black;
+}
+.status-column{
+    height: 95%;
+    width: 50%;
+    text-align: center;
+    background-color: steelblue;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    margin:10px 10px 10px 60px;
+    justify-content: center;
+  }
+
+.status-box{
+    text-align: center;
+    width: 51px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-inline: -15%;
+    border-radius: 22px;
+    padding: 15px;
+    border: 10px;
+    overflow: visible;
+}
+
+.status{
+    font-size: 16px;
+    margin-top: -56%;
+    margin-left: -47%;
+    width: 20px;
+    
+    color: black;
+    overflow: visible;
+}
+.status-box ul{
+    margin-left: -280%;
+    width: 92px;
+}
+.status-box ul li{
+    list-style: none;
+    height:25px;
+    width:45px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:15px;
+    color:black;
+}
+.branch-office-1st-floor3{
+  margin-top: 0%;
+  margin-left: 31%;
+}
+/*p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;   
+}*/
+/*.maintable2{
+  z-index: 2;
+  height:420px;
+  width:9%;
+  margin-left: 28px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: #ffffff;
+  overflow:visible;
+  border-radius: 22px;
+}
+.maintable2 ul li{
+  display: flex;
+  list-style: none;
+  height:52px;
+  background-color: #ebebeb;
+  border-radius: 15px;
+  margin-top: 27px;
+  margin-bottom: 2px;
+  margin-left: -40%;
+  margin-right: 26%;
+  justify-items: center;
+}
+.maintable2 ul li img{
+  display: flex;
+  height: 37px;
+  width: 29px;
+  margin-top: 14%;
+  margin-left: 25%;
+  justify-items: center;
+}*/
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-urbanist: Urbanist;
+  
+    /* font sizes */
+    --font-size-lg: 18px;
+    --font-size-sm: 14px;
+    --font-size-3xs: 10px;
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-xs: 12px;
+    --font-size-mini: 15px;
+    --font-size-smi: 13px;
+    --font-size-sm-5: 13.5px;
+  
+    /* Colors */
+    --color-darkgray: #afacac;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-seagreen: #256b4a;
+    --color-gray: #0f1112;
+    --color-firebrick: #cc3232;
+    --color-dodgerblue: #0091ff;
+    --color-midnightblue: #012e88;
+    --color-steelblue-100: #6087b6;
+    --color-steelblue-300: rgba(3, 79, 117, 0.57);
+    --color-steelblue-200: rgba(96, 135, 182, 0.84);
+    --color-steelblue-400: rgba(3, 79, 117, 0.7);
+    --color-cornflowerblue-100: #3b86e0;
+    --color-cornflowerblue-200: rgba(59, 134, 224, 0.84);
+    --color-lightgreen: #47d065;
+    --color-darkslategray: #383c3e;
+    --color-rosybrown: #b09898;
+  
+    /* Gaps */
+    --gap-14xl: 33px;
+    --gap-7xl-1: 26.1px;
+    --gap-3xl-1: 22.1px;
+    --gap-14xl-4: 33.4px;
+    --gap-xl-9: 20.9px;
+    --gap-lg-9: 18.9px;
+    --gap-4xs: 9px;
+    --gap-xl: 20px;
+    --gap-15xl: 34px;
+    --gap-lg: 18px;
+    --gap-10xl: 29px;
+    --gap-3xl: 22px;
+    --gap-12xl: 31px;
+    --gap-11xl: 30px;
+  
+    /* Paddings */
+    --padding-2xs: 11px;
+    --padding-21xl: 40px;
+    --padding-mini: 15px;
+    --padding-6xs: 7px;
+    --padding-7xs: 6px;
+    --padding-4xs: 9px;
+    --padding-10xs: 3px;
+    --padding-base-5: 16.5px;
+    --padding-sm: 14px;
+    --padding-11xs: 2px;
+    --padding-12xs: 1px;
+    --padding-5xl-9: 24.9px;
+    --padding-9xs: 4px;
+    --padding-8xs: 5px;
+    --padding-16xl: 35px;
+    --padding-xs: 12px;
+    --padding-18xl: 37px;
+    --padding-3xs: 10px;
+    --padding-34xl: 53px;
+    --padding-smi: 13px;
+    --padding-5xs: 8px;
+    --padding-xl: 20px;
+    --padding-3xl: 22px;
+    --padding-12xl: 31px;
+    --padding-72xl: 91px;
+    --padding-77xl: 96px;
+    --padding-19xl: 38px;
+  
+    /* Border radiuses */
+    --br-5xs: 8px;
+    --br-22xl: 41px;
+    --br-16xl: 35px;
+    --br-11xl: 30px;
+    --br-3xs: 10px;
+    --br-3xl: 22px;
+    --br-12xs: 1px;
+    --br-xs: 12px;
+    --br-3xs-6: 9.6px;
+  }
+  
+  
+  
+  
+  
