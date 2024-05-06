@@ -10,12 +10,17 @@
 		<property name="connection.username">root</property>
 		<property name="connection.password">root</property>
 		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
-		<property name="hbm2ddl.auto">create</property>
+		<property name="hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
 		<mapping class="com.hibernate.tutorial.Hibernate.Student" />
 		<mapping class="com.hibernate.tutorial.Hibernate.Address" />
 		<mapping class="com.hibernate.tutorial.Hibernate.Certificate" />
-		<mapping class="com.hibernate.mapping.Question" />
-		<mapping class="com.hibernate.mapping.Answer" />
+		<!--  <mapping class="com.hibernate.mapping.o2o.Question" />
+		<mapping class="com.hibernate.mapping.o2o.Answer" />-->
+		<mapping class="com.hibernate.mapping.o2mm2o.Question" />
+		<mapping class="com.hibernate.mapping.o2mm2o.Answer" />
+		<mapping class="com.hibernate.mapping.m2m.Employee" />
+		<mapping class="com.hibernate.mapping.m2m.Project" />
 	</session-factory>
 </hibernate-configuration>	
